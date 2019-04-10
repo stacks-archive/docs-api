@@ -1,0 +1,14 @@
+{
+  "name": "docs-api.blockstack.org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.2",
+    "micro": "latest"
+  },
+  "author": "Blockstack Team",
+  "license": "MIT"
+}
