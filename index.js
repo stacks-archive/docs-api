@@ -1,6 +1,6 @@
 const fetch = require('cross-fetch');
 
-const JSON_URL = 'https://deploy-preview-188--docsproduction.netlify.com/faqs/allfaqs.json'
+const JSON_URL = 'https://docs.blockstack.org/faqs/allfaqs.json'
 
 module.exports = async () => {
     const response = await fetch(JSON_URL);
