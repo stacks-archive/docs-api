@@ -12,7 +12,7 @@ module.exports = async (req, res) => {
     categories[question.category] = json.faqs.filter(q => q.category === question.category)
   }))
 
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'origin, content-type');
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Headers', 'origin, content-type');
   return send(res, 200, categories);
 };
